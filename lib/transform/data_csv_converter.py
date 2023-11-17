@@ -24,6 +24,7 @@ def convert_data_to_csv(source_path, results_path, clean=False, quiet=False):
             convert_file_to_csv_order_intake(source_file_path, clean=clean, quiet=quiet)
             convert_file_to_csv_order_backlog(source_file_path, clean=clean, quiet=quiet)
             convert_file_to_csv_key_figures(source_file_path, clean=clean, quiet=quiet)
+            convert_file_to_csv_companies_employees_working_hours_salaries(source_file_path, clean=clean, quiet=quiet)
 
 
 def convert_file_to_csv_companies_employees_salaries(source_file_path, clean=False, quiet=False):
@@ -264,6 +265,50 @@ def convert_file_to_csv_key_figures(source_file_path, clean=False, quiet=False):
         dataframe.insert(1, "type_parent_index", dataframe.pop("type_parent_index"))
 
         dataframe.replace("\n41.2/42\n43.1/43.9", "41.2 / 42 / 43.1 / 43.9", inplace=True)
+
+        # Write csv file
+        write_csv_file(dataframe, file_path_csv, quiet)
+    except Exception as e:
+        print(f"✗️ Exception: {str(e)}")
+
+
+def convert_file_to_csv_companies_employees_working_hours_salaries(source_file_path, clean=False, quiet=False):
+    source_file_name, source_file_extension = os.path.splitext(source_file_path)
+    file_path_csv = f"{source_file_name}-7-companies-employees-working-hours-salaries.csv"
+
+    # Check if result needs to be generated
+    if not clean and os.path.exists(file_path_csv):
+        if not quiet:
+            print(f"✓ Already exists {os.path.basename(file_path_csv)}")
+        return
+
+    # Determine engine
+    engine = build_engine(source_file_extension)
+
+    try:
+        # Iterate over sheets
+        sheet = "Tab7"
+        skiprows = 5
+        names = ["year_month", "companies", "employees", "working_hours", "salaries", "total_revenue",
+                 "construction_industry_revenue"]
+        drop_columns = ["year_month"]
+
+        dataframe = pd.read_excel(source_file_path, engine=engine, sheet_name=sheet, skiprows=skiprows, names=names,
+                                  index_col=False) \
+            .replace("... ", None) \
+            .assign(year_month=lambda df: df["year_month"].astype(str)) \
+            .dropna() \
+            .assign(companies=lambda df: df["companies"].astype(int)) \
+            .assign(employees=lambda df: df["employees"].astype(int)) \
+            .assign(working_hours=lambda df: df["working_hours"].astype(int)) \
+            .assign(salaries=lambda df: df["salaries"].astype(int)) \
+            .assign(total_revenue=lambda df: df["total_revenue"].astype(int)) \
+            .assign(construction_industry_revenue=lambda df: df["construction_industry_revenue"].astype(int))
+
+        dataframe = dataframe[~dataframe["year_month"].str.contains("Vorquartal")]
+        dataframe = dataframe[~dataframe["year_month"].str.contains("Vorjahresquartal")]
+        dataframe = dataframe[~dataframe["year_month"].str.contains("Vorjahr")]
+        dataframe = dataframe.drop(columns=drop_columns, errors="ignore").tail(1)
 
         # Write csv file
         write_csv_file(dataframe, file_path_csv, quiet)
