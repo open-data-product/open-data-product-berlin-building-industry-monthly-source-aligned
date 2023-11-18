@@ -25,6 +25,7 @@ def convert_data_to_csv(source_path, results_path, clean=False, quiet=False):
             convert_file_to_csv_order_backlog(source_file_path, clean=clean, quiet=quiet)
             convert_file_to_csv_key_figures(source_file_path, clean=clean, quiet=quiet)
             convert_file_to_csv_companies_employees_working_hours_salaries(source_file_path, clean=clean, quiet=quiet)
+            convert_file_to_csv_key_figures_extension(source_file_path, clean=clean, quiet=quiet)
 
 
 def convert_file_to_csv_companies_employees_salaries(source_file_path, clean=False, quiet=False):
@@ -316,6 +317,65 @@ def convert_file_to_csv_companies_employees_working_hours_salaries(source_file_p
         print(f"✗️ Exception: {str(e)}")
 
 
+def convert_file_to_csv_key_figures_extension(source_file_path, clean=False, quiet=False):
+    source_file_name, source_file_extension = os.path.splitext(source_file_path)
+    file_path_csv = f"{source_file_name}-8-key-figures-extension.csv"
+
+    # Check if result needs to be generated
+    if not clean and os.path.exists(file_path_csv):
+        if not quiet:
+            print(f"✓ Already exists {os.path.basename(file_path_csv)}")
+        return
+
+    # Determine engine
+    engine = build_engine(source_file_extension)
+
+    try:
+        # Iterate over sheets
+        sheet = "Tab8"
+        skiprows = 5
+        names = ["id", "branch_1", "branch_2", "companies", "employees", "working_hours", "salaries",
+                 "construction_industry_revenue"]
+        drop_columns = []
+
+        dataframe = pd.read_excel(source_file_path, engine=engine, sheet_name=sheet, skiprows=skiprows, names=names,
+                                  index_col=False) \
+            .replace("•", 0) \
+            .replace("–", 0) \
+            .replace("nan", None) \
+            .replace("-1.0", None) \
+            .replace("_____", None)
+
+        # Combine two fields which may contain branch
+        dataframe["branch"] = dataframe.apply(
+            lambda row: row["branch_1"] if not pd.isna(row["branch_1"]) else row["branch_2"], axis=1)
+        dataframe = dataframe.assign(branch=lambda df: df["branch"].apply(lambda row: build_branch_name(row))) \
+            .drop(columns=["branch_1", "branch_2"]) \
+            .dropna() \
+            .assign(companies=lambda df: df["companies"].astype(int)) \
+            .assign(employees=lambda df: df["employees"].astype(int)) \
+            .assign(working_hours=lambda df: df["working_hours"].astype(int)) \
+            .assign(salaries=lambda df: df["salaries"].astype(int)) \
+            .assign(construction_industry_revenue=lambda df: df["construction_industry_revenue"].astype(int))
+        dataframe.insert(1, "branch", dataframe.pop("branch"))
+
+        dataframe.reset_index(drop=True, inplace=True)
+        dataframe = dataframe.assign(type_index=lambda df: df.index) \
+            .assign(type_parent_index=lambda df: df.apply(lambda row: build_type_parent_index_8(row), axis=1)) \
+            .fillna(-1) \
+            .assign(type_parent_index=lambda df: df["type_parent_index"].astype(int))
+        dataframe.insert(0, "type_index", dataframe.pop("type_index"))
+        dataframe.insert(1, "type_parent_index", dataframe.pop("type_parent_index"))
+
+        dataframe.replace("\n41.2/42\n43.1/43.9", "41.2 / 42 / 43.1 / 43.9", inplace=True)
+        dataframe.replace("43.2/\n43.3", "43.2 / 43.3", inplace=True)
+
+        # Write csv file
+        write_csv_file(dataframe, file_path_csv, quiet)
+    except Exception as e:
+        print(f"✗️ Exception: {str(e)}")
+
+
 #
 # Transformers
 #
@@ -378,7 +438,36 @@ def build_branch_name(value):
     elif value == "Baugewerbe a.n.g.":
         return "other_building_industry"
 
-    return value
+    elif value == "Bauinstallation":
+        return "building_installation"
+    elif value == "Elektroinstallation":
+        return "electrical_installation"
+    elif value == "Gas-, Wasser-, Heizungs-, \nLüftungs-u. Klimainstallation":
+        return "gas_water_heating_ventilation_and_air_conditioning_installation"
+    elif value == "Dämmung gegen Kälte, Wärme,\nSchall und Erschütterung":
+        return "insulation_against_cold_heat_sound_and_vibration"
+    elif value == "Sonstige Bauinstallation a.n.g.":
+        return "other_installations"
+    elif value == "Sonstiger Ausbau":
+        return "other_extension"
+    elif value == "Anbringen von Stuckaturen, Gipserei und Verputzerei":
+        return "stucco_plastering"
+    elif value == "Bautischlerei und -schlosserei":
+        return "joinery_and_locksmithery"
+    elif value == "Fußboden-, Fliesen-, \nPlattenlegerei, Tapeziererei":
+        return "floor_tiles_slab_laying_wallpapering"
+    elif value == "Maler- und Lackierergewerbe":
+        return "painting_and_vanishing"
+    elif value == "Glasergewerbe":
+        return "glazier"
+    elif value == "Sonstiger Ausbau a.n.g.":
+        return "other_extension"
+    elif value == "Ausbaugewerbe insgesamt":
+        return "extension_total"
+    elif value == "Erschließung von Grundstücken; \nBauträger":
+        return "development_of_properties"
+    else:
+        return value
 
 
 def build_type_parent_index_6(row):
@@ -438,6 +527,41 @@ def build_type_parent_index_6(row):
         return 23
     elif row_index == 26:
         return 23
+    else:
+        return None
+
+
+def build_type_parent_index_8(row):
+    row_index = row.name
+
+    if row_index == 0:
+        return -1
+    elif row_index == 1:
+        return 0
+    elif row_index == 2:
+        return 0
+    elif row_index == 3:
+        return 0
+    elif row_index == 4:
+        return 0
+    elif row_index == 5:
+        return -1
+    elif row_index == 6:
+        return 5
+    elif row_index == 7:
+        return 5
+    elif row_index == 8:
+        return 5
+    elif row_index == 9:
+        return 5
+    elif row_index == 10:
+        return 5
+    elif row_index == 11:
+        return 5
+    elif row_index == 12:
+        return -1
+    else:
+        return None
 
 
 #
