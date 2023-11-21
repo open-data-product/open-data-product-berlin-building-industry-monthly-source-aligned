@@ -2,8 +2,78 @@
 id: berlin-building-industry
 name: Berlin Building Industry (source-aligned)
 metadata:
-  - ownership:
+  - ownership: Open Lifeworlds
+  - domain: geodata
   - schema:
+      # 1 companies, employees and salaries
+      - companies: number of companies
+      - employees: number of employees
+      - salaries: salaries in 1000 Euros
+      # 2 working hours
+      - working_days: number of working days
+      - working_hours_total: number of working hours in 1000 h
+      - building_construction: number of working hours in building construction in 1000 h
+      - residential: number of working hours in residential buildings 1000 h
+      - commercial_and_industrial: number of working hours in commercial and industrial buildings in 1000 h
+      - public: number of working hours in public buildings in 1000 h
+      - underground_construction: number of working hours in underground construction in 1000 h
+      - commercial_and_industrial_underground_construction: number of working hours in commercial and industrial underground construction in 1000 h
+      - road_construction: number of working hours in road construction in 1000 h
+      - other_underground_construction: number of working hours in other underground construction in 1000 h
+      # 3 revenue
+      - total_revenue: total revenue in 1000 Euros
+      - construction_industry_revenue: revenue in construction industry in 1000 Euros
+      - building_construction: revenue in building construction in 1000 Euros
+      - residential: revenue in residential buildings 1000 Euros
+      - commercial_and_industrial: revenue in commercial and industrial buildings in 1000 Euros
+      - public: revenue in public buildings in 1000 Euros
+      - underground_construction: revenue in underground construction in 1000 Euros
+      - commercial_and_industrial_underground_construction: revenue in commercial and industrial underground construction in 1000 Euros
+      - road_construction: revenue in road construction in 1000 Euros
+      - other_underground_construction: revenue in other underground construction in 1000 Euros
+      # 4 order intake
+      - total: total order intake
+      - building_construction: building construction
+      - residential: residential buildings
+      - commercial_and_industrial: commercial and industrial buildings
+      - public: public buildings
+      - underground_construction: underground construction
+      - commercial_and_industrial_underground_construction: commercial and industrial underground construction
+      - road_construction: road construction
+      - other_underground_construction: other underground construction
+      # 5 order backlog
+      - total: total order backlog
+      - building_construction: building construction
+      - residential: residential buildings
+      - commercial_and_industrial: commercial and industrial buildings
+      - public: public bildings
+      - underground_construction: underground construction
+      - commercial_and_industrial_underground_construction: commercial and industrial underground construction
+      - road_construction: road construction
+      - other_underground_construction: other underground construction
+      # 6 key figures
+      - id: ID
+      - branch: branch
+      - companies: number of companies
+      - employees: number of employees
+      - working_hours: number of working hours in 1000h
+      - salaries: salaries in 1000 Euros
+      - construction_industry_revenue: construction_industry_revenue in 1000 Euros
+      # 7 companies, employees, working hours and salaries
+      - companies: number of companies
+      - employees: number of employees
+      - working_hours: number of working hours in 1000h
+      - salaries: salaries in 1000 Euros
+      - total_revenue: total revenue in 1000 Euros
+      - construction_industry_revenue: construction industry revenue in 1000 Euros
+      # 8 key figures extension
+      - id: ID
+      - branch: branch
+      - companies: number of companies
+      - employees: number of employees
+      - working_hours: number of working hours in 1000h
+      - salaries: salaries in 1000 Euros
+      - construction_industry_revenue: construction_industry_revenue in 1000 Euros
 description:
 input_ports:
   - id: berlin-building-industry-2023-11
@@ -214,10 +284,233 @@ input_ports:
     files:
       - https://download.statistik-berlin-brandenburg.de/999b83359a4776dc/93781a6d25f1/SB_E02-01-00_2022m01_BE.xlsx
 output_ports:
+  - id: berlin-building-industry
+    metadata:
+      name: Berlin building industry
+      author: Open Lifeworlds
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-source-aligned/tree/main/data
+      license: CC-BY-4.0
+      updated: 2024-03-05
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-02-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-03-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-04-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-05-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-06-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-07-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-08-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-09-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-10-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-11-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-12-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-01/berlin-building-industry-2022-01-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-02/berlin-building-industry-2022-02-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-03/berlin-building-industry-2022-03-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-04/berlin-building-industry-2022-04-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-05/berlin-building-industry-2022-05-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-06/berlin-building-industry-2022-06-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-07/berlin-building-industry-2022-07-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-08/berlin-building-industry-2022-08-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-09/berlin-building-industry-2022-09-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-10/berlin-building-industry-2022-10-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-11/berlin-building-industry-2022-11-8-key-figures-extension.csv
+
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-1-companies-employees-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-2-working-hours.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-3-revenue.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-4-order-intake.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-5-order-backlog.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-6-key-figures.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-7-companies-employees-working-hours-salaries.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-permits-source-aligned/main/data/berlin-building-industry-2022-12/berlin-building-industry-2022-12-8-key-figures-extension.csv
 metrics:
   - quality:
   - operational:
-classification:
+classification: source-aligned
 tags:
   - berlin
   - building
