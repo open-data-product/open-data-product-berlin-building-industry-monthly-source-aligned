@@ -1,0 +1,14 @@
+type_index,type_parent_index,id,branch,companies,employees,working_hours,salaries,construction_industry_revenue
+0,-1,43.2,building_installation,266,15639,5186,155978,640374
+1,0,43.21,electrical_installation,87,4377,1465,43584,159610
+2,0,43.22,gas_water_heating_ventilation_and_air_conditioning_installation,127,7236,2297,69821,317013
+3,0,43.29.1,insulation_against_cold_heat_sound_and_vibration,21,1998,750,14507,55863
+4,0,43.29.9,other_installations,31,2028,674,28066,107887
+5,-1,43.3,other_extension,142,4896,1532,40531,224542
+6,5,43.31,stucco_plastering,36,1151,349,9078,65246
+7,5,43.32,joinery_and_locksmithery,22,637,212,5765,26829
+8,5,43.33,floor_tiles_slab_laying_wallpapering,28,950,296,6802,37395
+9,5,43.34.1,painting_and_vanishing,53,1983,616,16414,78820
+10,5,43.34.2,glazier,2,0,0,0,0
+11,5,43.39,other_extension,1,0,0,0,0
+12,-1,43.2 / 43.3,extension_total,408,20535,6718,196508,864916

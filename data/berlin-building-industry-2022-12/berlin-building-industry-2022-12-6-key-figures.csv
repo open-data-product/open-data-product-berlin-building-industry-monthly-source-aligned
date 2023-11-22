@@ -1,0 +1,28 @@
+type_index,type_parent_index,id,branch,companies,employees,working_hours,salaries,construction_industry_revenue
+0,-1,41.2 / 42 / 43.1 / 43.9,construction_industry_total,278,16052,1285,57941,444039
+1,0,41.2,buildings,89,5501,451,20399,224416
+2,1,41.20.1,buildings_excluding_prefabricated_construction,88,0,0,0,0
+3,1,41.20.2,prefabricated_buildings,1,0,0,0,0
+4,0,42,underground_construction,77,6483,474,24224,128535
+5,4,42.1,roads_and_railways,33,3557,231,13786,76465
+6,5,42.11,roads,22,1651,123,5559,21023
+7,5,42.12,railways,9,0,0,0,48838
+8,5,42.13,bridges_and_tunnels,2,0,0,0,6605
+9,4,42.2,pipeline_and_sewage_plant_construction,39,2600,224,8916,42962
+10,9,42.21,pipeline_well_and_sewage_plant_construction,22,1496,122,4980,21248
+11,9,42.22,cable_network_construction,17,1104,102,3935,21714
+12,4,42.9,other_underground_construction,5,326,19,1523,9108
+13,12,42.91,hydraulic_construction,2,0,0,0,0
+14,12,42.99,still_other_underground_construction,3,0,0,0,0
+15,0,43.1,demolition_and_preprartory_site_work,15,648,66,2214,27438
+16,15,43.11,demolition_work,11,345,36,929,8923
+17,15,43.12,preprartory_site_work,4,303,29,1285,18515
+18,15,43.13,test_and_search_drilling,0,0,0,0,0
+19,0,43.9,other_specialized_construction_work,97,3420,294,11103,63649
+20,19,43.91,roofing_and_carpentry,39,1321,114,4454,22847
+21,20,43.91.1,roofing_and_plumbing,36,1251,106,4256,22305
+22,20,43.91.2,carpentry_and_timber_engineering,3,70,8,199,542
+23,19,43.99,still_other_specialized_construction_work,58,2099,181,6649,40802
+24,23,43.99.1,scaffolding,13,0,0,0,0
+25,23,43.99.2,"Schornstein-, Feuerungs- und Industrieofenb.",1,0,0,0,0
+26,23,43.99.9,other_building_industry,44,1653,146,5081,33450
