@@ -1,8 +1,8 @@
-[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-source-aligned)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-source-aligned/issues)
+[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-monthly-source-aligned)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-monthly-source-aligned/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-source-aligned">
+  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-monthly-source-aligned">
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
@@ -48,7 +48,7 @@ Examples:
 ## Roadmap
 
 See
-the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-source-aligned/issues)
+the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-industry-monthly-source-aligned/issues)
 for a list of proposed features (and
 known issues).
 
