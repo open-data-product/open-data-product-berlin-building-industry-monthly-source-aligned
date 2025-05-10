@@ -1,0 +1,409 @@
+---
+id: berlin-building-industry-monthly-source-aligned
+metadata:
+  name: Berlin Building Industry monthly (source-aligned)
+  owner: Open Data Product
+  description: Source-aligned data product providing Berlin building industry data
+  url:
+  license:
+  updated: 2025-06-16
+  schema:
+    - name: companies
+      description: number of companies
+    - name: employees
+      description: number of employees
+    - name: salaries
+      description: salaries in 1000 Euros
+    - name: working_days
+      description: number of working days
+    - name: working_hours_total
+      description: number of working hours in 1000 h
+    - name: building_construction
+      description: number of working hours in building construction in 1000 h
+    - name: residential
+      description: number of working hours in residential buildings 1000 h
+    - name: commercial_and_industrial
+      description: number of working hours in commercial and industrial buildings in 1000 h
+    - name: public
+      description: number of working hours in public buildings in 1000 h
+    - name: underground_construction
+      description: number of working hours in underground construction in 1000 h
+    - name: commercial_and_industrial_underground_construction
+      description: number of working hours in commercial and industrial underground construction in 1000 h
+    - name: road_construction
+      description: number of working hours in road construction in 1000 h
+    - name: other_underground_construction
+      description: number of working hours in other underground construction in 1000 h
+    - name: total_revenue
+      description: total revenue in 1000 Euros
+    - name: construction_industry_revenue
+      description: revenue in construction industry in 1000 Euros
+    - name: building_construction
+      description: revenue in building construction in 1000 Euros
+    - name: residential
+      description: revenue in residential buildings 1000 Euros
+    - name: commercial_and_industrial
+      description: revenue in commercial and industrial buildings in 1000 Euros
+    - name: public
+      description: revenue in public buildings in 1000 Euros
+    - name: underground_construction
+      description: revenue in underground construction in 1000 Euros
+    - name: commercial_and_industrial_underground_construction
+      description: revenue in commercial and industrial underground construction in 1000 Euros
+    - name: road_construction
+      description: revenue in road construction in 1000 Euros
+    - name: other_underground_construction
+      description: revenue in other underground construction in 1000 Euros
+    - name: total
+      description: total order intake
+    - name: building_construction
+      description: building construction
+    - name: residential
+      description: residential buildings
+    - name: commercial_and_industrial
+      description: commercial and industrial buildings
+    - name: public
+      description: public buildings
+    - name: underground_construction
+      description: underground construction
+    - name: commercial_and_industrial_underground_construction
+      description: commercial and industrial underground construction
+    - name: road_construction
+      description: road construction
+    - name: other_underground_construction
+      description: other underground construction
+    - name: total
+      description: total order backlog
+    - name: building_construction
+      description: building construction
+    - name: residential
+      description: residential buildings
+    - name: commercial_and_industrial
+      description: commercial and industrial buildings
+    - name: public
+      description: public bildings
+    - name: underground_construction
+      description: underground construction
+    - name: commercial_and_industrial_underground_construction
+      description: commercial and industrial underground construction
+    - name: road_construction
+      description: road construction
+    - name: other_underground_construction
+      description: other underground construction
+    - name: id
+      description: ID
+    - name: branch
+      description: branch
+    - name: companies
+      description: number of companies
+    - name: employees
+      description: number of employees
+    - name: working_hours
+      description: number of working hours in 1000h
+    - name: salaries
+      description: salaries in 1000 Euros
+    - name: construction_industry_revenue
+      description: construction_industry_revenue in 1000 Euros
+    - name: companies
+      description: number of companies
+    - name: employees
+      description: number of employees
+    - name: working_hours
+      description: number of working hours in 1000h
+    - name: salaries
+      description: salaries in 1000 Euros
+    - name: total_revenue
+      description: total revenue in 1000 Euros
+    - name: construction_industry_revenue
+      description: construction industry revenue in 1000 Euros
+    - name: id
+      description: ID
+    - name: branch
+      description: branch
+    - name: companies
+      description: number of companies
+    - name: employees
+      description: number of employees
+    - name: working_hours
+      description: number of working hours in 1000h
+    - name: salaries
+      description: salaries in 1000 Euros
+    - name: construction_industry_revenue
+      description: construction_industry_revenue in 1000 Euros
+input_ports:
+  - id: berlin-building-industry-2022-01
+    metadata:
+      name: Baugewerbe in Berlin Januar 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-03-28
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/999b83359a4776dc/93781a6d25f1/SB_E02-01-00_2022m01_BE.xlsx
+  - id: berlin-building-industry-2022-02
+    metadata:
+      name: Baugewerbe in Berlin Februar 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-05-12
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/451f5ba35a97c17b/aee11fcad659/SB_E02-01-00_2022m02_BE.xlsx
+  - id: berlin-building-industry-2022-03
+    metadata:
+      name: Baugewerbe in Berlin März 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-06-23
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/9dcc61cd117f0963/b852e673c60b/SB_E02-01-00_2022m03_BE.xlsx
+  - id: berlin-building-industry-2022-04
+    metadata:
+      name: Baugewerbe in Berlin April 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-07-12
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/8c116bed462a8cb1/bf228b7b3805/SB_E02-01-00_2022m04_BE.xlsx
+  - id: berlin-building-industry-2022-05
+    metadata:
+      name: Baugewerbe in Berlin Mai 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-08-04
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/a8991968a9e5e5aa/da07bc7a9252/SB_E02-01-00_2022m05_BE.xlsx
+  - id: berlin-building-industry-2022-06
+    metadata:
+      name: Baugewerbe in Berlin Juni 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-10-20
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/1392b49e4b702cfc/4e9cd908694f/SB_E02-01-00_2022m06_BE.xlsx
+  - id: berlin-building-industry-2022-07
+    metadata:
+      name: Baugewerbe in Berlin Juli 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-10-20
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/77668c5f215fe43a/531c9a185b5f/SB_E02-01-00_2022m07_BE.xlsx
+  - id: berlin-building-industry-2022-08
+    metadata:
+      name: Baugewerbe in Berlin August 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-09-11
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/334613816622833c/e6601aed2490/SB_E02-01-00_2022m08_BE.xlsx
+  - id: berlin-building-industry-2022-09
+    metadata:
+      name: Baugewerbe in Berlin September 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-12-16
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/ab39b057381ac735/f89b803a1611/SB_E02-01-00_2022m09_BE.xlsx
+  - id: berlin-building-industry-2022-10
+    metadata:
+      name: Baugewerbe in Berlin Oktober 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-01-06
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/06f6c759c88dbde2/bd0efc6b39c8/SB_E02-01-00_2022m10_BE.xlsx
+  - id: berlin-building-industry-2022-11
+    metadata:
+      name: Baugewerbe in Berlin November 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-01-25
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/45a413a894d7c88d/6a3d88ba61e9/SB_E02-01-00_2022m11_BE.xlsx
+  - id: berlin-building-industry-2022-12
+    metadata:
+      name: Baugewerbe in Berlin Dezember 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-03-20
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/1134506b8c880793/898da831d16a/SB_E02-01-00_2022m12_BE.xlsx
+  - id: berlin-building-industry-2023-01
+    metadata:
+      name: Baugewerbe in Berlin Januar 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-03-29
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/b37d64f7bbc9f7ea/766b0970a03b/SB_E02-01-00_2023m01_BE.xlsx
+  - id: berlin-building-industry-2023-02
+    metadata:
+      name: Baugewerbe in Berlin Februar 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-04-21
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/0ec4658066474458/31cf3c930bff/SB_E02-01-00_2023m02_BE.xlsx
+  - id: berlin-building-industry-2023-03
+    metadata:
+      name: Baugewerbe in Berlin März 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-06-07
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/213069e3cc0b97dc/389d16cddf60/SB_E02-01-00_2023m03_BE.xlsx
+  - id: berlin-building-industry-2023-04
+    metadata:
+      name: Baugewerbe in Berlin April 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-06-22
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/c9da9c2763b0d047/dff773321533/SB_E02-01-00_2023m04_BE.xlsx
+  - id: berlin-building-industry-2023-05
+    metadata:
+      name: Baugewerbe in Berlin Mai 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-07-21
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/7883d7658ad90e53/1ff05f83da14/SB_E02-01-00_2023m05_BE.xlsx
+  - id: berlin-building-industry-2023-06
+    metadata:
+      name: Baugewerbe in Berlin Juni 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-09-08
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/dc3b560eac941472/fc85ce1e4692/SB_E02-01-00_2023m06_BE.xlsx
+  - id: berlin-building-industry-2023-07
+    metadata:
+      name: Baugewerbe in Berlin Juli 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-09-22
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/8bafa3d7c09d3d78/59da6995d8db/SB_E02-01-00_2023m07_BE.xlsx
+  - id: berlin-building-industry-2023-08
+    metadata:
+      name: Baugewerbe in Berlin August 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-10-20
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/53ec0fa704233f35/e2ae7ebd4063/SB_E02-01-00_2023m08_BE.xlsx
+  - id: berlin-building-industry-2023-09
+    metadata:
+      name: Baugewerbe in Berlin September 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-12-13
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/2e39d3d762df4fa4/b1adc18f0aff/SB_E02-01-00_2023m09_BE.xlsx
+  - id: berlin-building-industry-2023-10
+    metadata:
+      name: Baugewerbe in Berlin Oktober 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-12-21
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/c53a4dcdccef9639/b5b47e839d2d/SB_E02-01-00_2023m10_BE.xlsx
+  - id: berlin-building-industry-2023-11
+    metadata:
+      name: Baugewerbe in Berlin November 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-1-e-iii-1-m
+      license: CC-BY-3.0-Namensnennung
+      updated: 2024-01-21
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/20783b8df599495b/2c00c21bcd09/SB_E02-01-00_2023m11_BE.xlsx
+transformation_steps:
+  - name: Data extractor
+    path: lib/extract/data_extractor.py
+    description: extracts data from inout ports
+  - name: Data copier
+    path: lib/transform/data_copier.py
+    description: copies and renames extracted data
+  - name: Data CSV converter
+    path: lib/transform/convert_data_to_csv.py
+    description: converts Excel files to CSV format
+  - name: Data aggregator
+    path: lib/transform/aggregate_data.py
+    description: aggregates data to be used as output ports
+output_ports: []
+observability:
+consumers: []
+use_cases: []
+classification: source-aligned
+ubiquitous_language: []
+tags:
+  - berlin
+  - building
+  - housing

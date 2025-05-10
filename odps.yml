@@ -1,0 +1,25 @@
+---
+schema: https://opendataproducts.org/v3.1/schema/odps.yaml
+version: 3.1
+product:
+  dataHolder:
+    URL: "https://opendataproduct.de"
+  en:
+    name: "Berlin Building Industry source-aligned"
+    productID: "berlin-building-industry-source-aligned"
+    valueProposition: "Providing Berlin building industry data"
+    description: "Data product providing Berlin building industry data"
+    productSeries: "Berlin Timeseries Series"
+    visibility: "public"
+    status: "active"
+    version: "1.0"
+    categories:
+      - timeseries
+    tags:
+      - Berlin
+      - building
+      - housing
+    type: "source-aligned"
+    logoURL: "https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/refs/heads/main/logo-with-text.png"
+    OutputFileFormats:
+      - csv

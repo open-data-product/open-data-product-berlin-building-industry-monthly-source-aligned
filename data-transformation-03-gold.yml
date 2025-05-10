@@ -1,0 +1,26 @@
+---
+input_ports:
+  - id: berlin-building-industry-2022-01
+  - id: berlin-building-industry-2022-02
+  - id: berlin-building-industry-2022-03
+  - id: berlin-building-industry-2022-04
+  - id: berlin-building-industry-2022-05
+  - id: berlin-building-industry-2022-06
+  - id: berlin-building-industry-2022-07
+  - id: berlin-building-industry-2022-08
+  - id: berlin-building-industry-2022-09
+  - id: berlin-building-industry-2022-10
+  - id: berlin-building-industry-2022-11
+  - id: berlin-building-industry-2022-12
+  - id: berlin-building-industry-2023-01
+  - id: berlin-building-industry-2023-02
+  - id: berlin-building-industry-2023-03
+  - id: berlin-building-industry-2023-04
+  - id: berlin-building-industry-2023-05
+  - id: berlin-building-industry-2023-06
+  - id: berlin-building-industry-2023-07
+  - id: berlin-building-industry-2023-08
+  - id: berlin-building-industry-2023-09
+  - id: berlin-building-industry-2023-10
+  - id: berlin-building-industry-2023-11
+  - id: berlin-building-industry-2023-12
