@@ -5,7 +5,7 @@
 
 * owner: Open Data Product
 * description: Source-aligned data product providing Berlin building industry data
-* updated: 2025-06-16
+* updated: 2025-06-17
 
 ## Input Ports
 
@@ -268,6 +268,399 @@
 * [Data copier](../lib/transform/data_copier.py) copies and renames extracted data
 * [Data CSV converter](../lib/transform/convert_data_to_csv.py) converts Excel files to CSV format
 * [Data aggregator](../lib/transform/aggregate_data.py) aggregates data to be used as output ports
+
+## Output Ports
+
+### Berlin Building Industry 2022 01
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-01
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-01-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-01-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-2-working-hours.csv)
+* [berlin-building-industry-2022-01-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-3-turnover.csv)
+* [berlin-building-industry-2022-01-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-4-order-intake.csv)
+* [berlin-building-industry-2022-01-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-5-order-backlog.csv)
+* [berlin-building-industry-2022-01-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-01-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-01-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 02
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-02
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-02-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-02-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-2-working-hours.csv)
+* [berlin-building-industry-2022-02-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-3-turnover.csv)
+* [berlin-building-industry-2022-02-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-4-order-intake.csv)
+* [berlin-building-industry-2022-02-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-5-order-backlog.csv)
+* [berlin-building-industry-2022-02-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-02-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-02-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 03
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-03
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-03-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-03-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-2-working-hours.csv)
+* [berlin-building-industry-2022-03-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-3-turnover.csv)
+* [berlin-building-industry-2022-03-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-4-order-intake.csv)
+* [berlin-building-industry-2022-03-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-5-order-backlog.csv)
+* [berlin-building-industry-2022-03-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-03-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-03-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 04
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-04
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-04-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-04-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-2-working-hours.csv)
+* [berlin-building-industry-2022-04-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-3-turnover.csv)
+* [berlin-building-industry-2022-04-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-4-order-intake.csv)
+* [berlin-building-industry-2022-04-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-5-order-backlog.csv)
+* [berlin-building-industry-2022-04-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-04-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-04-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 05
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-05
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-05-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-05-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-2-working-hours.csv)
+* [berlin-building-industry-2022-05-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-3-turnover.csv)
+* [berlin-building-industry-2022-05-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-4-order-intake.csv)
+* [berlin-building-industry-2022-05-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-5-order-backlog.csv)
+* [berlin-building-industry-2022-05-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-05-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-05-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 06
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-06
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-06-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-06-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-2-working-hours.csv)
+* [berlin-building-industry-2022-06-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-3-turnover.csv)
+* [berlin-building-industry-2022-06-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-4-order-intake.csv)
+* [berlin-building-industry-2022-06-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-5-order-backlog.csv)
+* [berlin-building-industry-2022-06-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-06-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-06-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 07
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-07
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-07-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-07-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-2-working-hours.csv)
+* [berlin-building-industry-2022-07-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-3-turnover.csv)
+* [berlin-building-industry-2022-07-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-4-order-intake.csv)
+* [berlin-building-industry-2022-07-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-5-order-backlog.csv)
+* [berlin-building-industry-2022-07-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-07-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-07-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 08
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-08
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-08-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-08-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-2-working-hours.csv)
+* [berlin-building-industry-2022-08-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-3-turnover.csv)
+* [berlin-building-industry-2022-08-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-4-order-intake.csv)
+* [berlin-building-industry-2022-08-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-5-order-backlog.csv)
+* [berlin-building-industry-2022-08-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-08-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-08-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 09
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-09
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-09-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-09-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-2-working-hours.csv)
+* [berlin-building-industry-2022-09-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-3-turnover.csv)
+* [berlin-building-industry-2022-09-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-4-order-intake.csv)
+* [berlin-building-industry-2022-09-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-5-order-backlog.csv)
+* [berlin-building-industry-2022-09-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-09-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-09-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 10
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-10
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-10-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-10-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-2-working-hours.csv)
+* [berlin-building-industry-2022-10-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-3-turnover.csv)
+* [berlin-building-industry-2022-10-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-4-order-intake.csv)
+* [berlin-building-industry-2022-10-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-5-order-backlog.csv)
+* [berlin-building-industry-2022-10-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-10-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-10-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 11
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-11
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-11-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-11-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-2-working-hours.csv)
+* [berlin-building-industry-2022-11-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-3-turnover.csv)
+* [berlin-building-industry-2022-11-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-4-order-intake.csv)
+* [berlin-building-industry-2022-11-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-5-order-backlog.csv)
+* [berlin-building-industry-2022-11-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-11-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-11-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2022 12
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-12
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2022-12-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2022-12-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-2-working-hours.csv)
+* [berlin-building-industry-2022-12-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-3-turnover.csv)
+* [berlin-building-industry-2022-12-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-4-order-intake.csv)
+* [berlin-building-industry-2022-12-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-5-order-backlog.csv)
+* [berlin-building-industry-2022-12-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2022-12-7-companies-employees-working-hours-and-salaries-q1-2020.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-7-companies-employees-working-hours-and-salaries-q1-2020.csv)
+* [berlin-building-industry-2022-12-8-companies-employees-working-hours-and-salaries-q4-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-8-companies-employees-working-hours-and-salaries-q4-2021.csv)
+
+### Berlin Building Industry 2023 01
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-01
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-01-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-01-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-2-working-hours.csv)
+* [berlin-building-industry-2023-01-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-3-turnover.csv)
+* [berlin-building-industry-2023-01-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-4-order-intake.csv)
+* [berlin-building-industry-2023-01-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-5-order-backlog.csv)
+* [berlin-building-industry-2023-01-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-01-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-01-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 02
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-02
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-02-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-02-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-2-working-hours.csv)
+* [berlin-building-industry-2023-02-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-3-turnover.csv)
+* [berlin-building-industry-2023-02-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-4-order-intake.csv)
+* [berlin-building-industry-2023-02-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-5-order-backlog.csv)
+* [berlin-building-industry-2023-02-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-02-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-02-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 03
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-03
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-03-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-03-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-2-working-hours.csv)
+* [berlin-building-industry-2023-03-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-3-turnover.csv)
+* [berlin-building-industry-2023-03-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-4-order-intake.csv)
+* [berlin-building-industry-2023-03-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-5-order-backlog.csv)
+* [berlin-building-industry-2023-03-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-03-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-03-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 04
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-04
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-04-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-04-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-2-working-hours.csv)
+* [berlin-building-industry-2023-04-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-3-turnover.csv)
+* [berlin-building-industry-2023-04-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-4-order-intake.csv)
+* [berlin-building-industry-2023-04-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-5-order-backlog.csv)
+* [berlin-building-industry-2023-04-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-04-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-04-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 05
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-05
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-05-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-05-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-2-working-hours.csv)
+* [berlin-building-industry-2023-05-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-3-turnover.csv)
+* [berlin-building-industry-2023-05-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-4-order-intake.csv)
+* [berlin-building-industry-2023-05-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-5-order-backlog.csv)
+* [berlin-building-industry-2023-05-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-05-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-05-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 06
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-06
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-06-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-06-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-2-working-hours.csv)
+* [berlin-building-industry-2023-06-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-3-turnover.csv)
+* [berlin-building-industry-2023-06-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-4-order-intake.csv)
+* [berlin-building-industry-2023-06-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-5-order-backlog.csv)
+* [berlin-building-industry-2023-06-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-06-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-06-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 07
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-07
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-07-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-07-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-2-working-hours.csv)
+* [berlin-building-industry-2023-07-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-3-turnover.csv)
+* [berlin-building-industry-2023-07-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-4-order-intake.csv)
+* [berlin-building-industry-2023-07-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-5-order-backlog.csv)
+* [berlin-building-industry-2023-07-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-07-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-07-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 08
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-08
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-08-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-08-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-2-working-hours.csv)
+* [berlin-building-industry-2023-08-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-3-turnover.csv)
+* [berlin-building-industry-2023-08-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-4-order-intake.csv)
+* [berlin-building-industry-2023-08-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-5-order-backlog.csv)
+* [berlin-building-industry-2023-08-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-08-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-08-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 09
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-09
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-09-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-09-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-2-working-hours.csv)
+* [berlin-building-industry-2023-09-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-3-turnover.csv)
+* [berlin-building-industry-2023-09-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-4-order-intake.csv)
+* [berlin-building-industry-2023-09-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-5-order-backlog.csv)
+* [berlin-building-industry-2023-09-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-09-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-09-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 10
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-10
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-10-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-10-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-2-working-hours.csv)
+* [berlin-building-industry-2023-10-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-3-turnover.csv)
+* [berlin-building-industry-2023-10-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-4-order-intake.csv)
+* [berlin-building-industry-2023-10-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-5-order-backlog.csv)
+* [berlin-building-industry-2023-10-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-10-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-10-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
+
+### Berlin Building Industry 2023 11
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-11
+* updated: 2025-06-17
+
+**Files**
+
+* [berlin-building-industry-2023-11-1-companies-employees-and-salaries.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-1-companies-employees-and-salaries.csv)
+* [berlin-building-industry-2023-11-2-working-hours.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-2-working-hours.csv)
+* [berlin-building-industry-2023-11-3-turnover.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-3-turnover.csv)
+* [berlin-building-industry-2023-11-4-order-intake.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-4-order-intake.csv)
+* [berlin-building-industry-2023-11-5-order-backlog.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-5-order-backlog.csv)
+* [berlin-building-industry-2023-11-6-key-figures-by-sectors.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-6-key-figures-by-sectors.csv)
+* [berlin-building-industry-2023-11-7-companies-employees-working-hours-and-salaries-q1-2021.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-7-companies-employees-working-hours-and-salaries-q1-2021.csv)
+* [berlin-building-industry-2023-11-8-companies-employees-working-hours-and-salaries-q4-2022.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-8-companies-employees-working-hours-and-salaries-q4-2022.csv)
 
 ## Classification
 

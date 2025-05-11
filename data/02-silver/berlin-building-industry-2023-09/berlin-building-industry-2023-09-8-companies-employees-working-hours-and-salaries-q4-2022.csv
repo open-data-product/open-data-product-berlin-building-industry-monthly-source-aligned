@@ -1,0 +1,14 @@
+period,companies,employees,working_hours,salaries,turnover_total,turnover_building_construction
+Ausbaugewerbe,,,,,,
+43.2,Bauinstallation,,258,15504,5326,158277
+43.21,,Elektroinstallation,87,4486,1515,45816
+43.22,,"Gas-, Wasser-, Heizungs-, Lüftungs-u. Klimainstallation",120,7003,2385,70360
+43.29.1,,"Dämmung gegen Kälte, Wärme,Schall und Erschütterung",22,2016,764,13851
+43.29.9,,Sonstige Bauinstallation a.n.g.,29,1999,663,27979
+43.3,Sonstiger Ausbau,,147,5134,1622,41185
+43.31,,"Anbringen von Stuckaturen, Gipserei und Verputzerei",38,1286,388,9818
+43.32,,Bautischlerei und -schlosserei,23,659,216,5535
+43.33,,"Fußboden-, Fliesen-, Plattenlegerei, Tapeziererei",32,979,299,7534
+43.34.1,,Maler- und Lackierergewerbe,52,2051,665,16354
+43.34.2,,Glasergewerbe,1,•,•,•
+43.39,,Sonstiger Ausbau a.n.g.,1,•,•,•

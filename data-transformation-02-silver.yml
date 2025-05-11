@@ -4,91 +4,2506 @@ input_ports:
     files:
       - source_file_name: SB_E02-01-00_2022m01_BE.xlsx
         target_file_name: berlin-building-industry-2022-01.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-01-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-01-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-01-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-01-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-01-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-01-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-01-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-01-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-02
     files:
       - source_file_name: SB_E02-01-00_2022m02_BE.xlsx
         target_file_name: berlin-building-industry-2022-02.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-02-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-02-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-02-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-02-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-02-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-02-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-02-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-02-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-03
     files:
       - source_file_name: SB_E02-01-00_2022m03_BE.xlsx
         target_file_name: berlin-building-industry-2022-03.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-03-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-03-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-03-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-03-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-03-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-03-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-03-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-03-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-04
     files:
       - source_file_name: SB_E02-01-00_2022m04_BE.xlsx
         target_file_name: berlin-building-industry-2022-04.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-04-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-04-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-04-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-04-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-04-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-04-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-04-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-04-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-05
     files:
       - source_file_name: SB_E02-01-00_2022m05_BE.xlsx
         target_file_name: berlin-building-industry-2022-05.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-05-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-05-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-05-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-05-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-05-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-05-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-05-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-05-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-06
     files:
       - source_file_name: SB_E02-01-00_2022m06_BE.xlsx
         target_file_name: berlin-building-industry-2022-06.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-06-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-06-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-06-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-06-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-06-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-06-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-06-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-06-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-07
     files:
       - source_file_name: SB_E02-01-00_2022m07_BE.xlsx
         target_file_name: berlin-building-industry-2022-07.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-07-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-07-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-07-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-07-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-07-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-07-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-07-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-07-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-08
     files:
       - source_file_name: SB_E02-01-00_2022m08_BE.xlsx
         target_file_name: berlin-building-industry-2022-08.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-08-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-08-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-08-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-08-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-08-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-08-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-08-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-08-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-09
     files:
       - source_file_name: SB_E02-01-00_2022m09_BE.xlsx
         target_file_name: berlin-building-industry-2022-09.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-09-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-09-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-09-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-09-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-09-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-09-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-09-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-09-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-10
     files:
       - source_file_name: SB_E02-01-00_2022m10_BE.xlsx
         target_file_name: berlin-building-industry-2022-10.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-10-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-10-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-10-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-10-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-10-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-10-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-10-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-10-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-11
     files:
       - source_file_name: SB_E02-01-00_2022m11_BE.xlsx
         target_file_name: berlin-building-industry-2022-11.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-11-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-11-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-11-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-11-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-11-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-11-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-11-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-11-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2022-12
     files:
       - source_file_name: SB_E02-01-00_2022m12_BE.xlsx
         target_file_name: berlin-building-industry-2022-12.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-12-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-12-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-12-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2022-12-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2022-12-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-12-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2022-12-7-companies-employees-working-hours-and-salaries-q1-2020.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2022-12-8-companies-employees-working-hours-and-salaries-q4-2021.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-01
     files:
       - source_file_name: SB_E02-01-00_2023m01_BE.xlsx
         target_file_name: berlin-building-industry-2023-01.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-01-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-01-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-01-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-01-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-01-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-01-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-01-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-01-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-02
     files:
       - source_file_name: SB_E02-01-00_2023m02_BE.xlsx
         target_file_name: berlin-building-industry-2023-02.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-02-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-02-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-02-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-02-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-02-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-02-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-02-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-02-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-03
     files:
       - source_file_name: SB_E02-01-00_2023m03_BE.xlsx
         target_file_name: berlin-building-industry-2023-03.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-03-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-03-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-03-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-03-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-03-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-03-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-03-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-03-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-04
     files:
       - source_file_name: SB_E02-01-00_2023m04_BE.xlsx
         target_file_name: berlin-building-industry-2023-04.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-04-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-04-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-04-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-04-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-04-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-04-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-04-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-04-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-05
     files:
       - source_file_name: SB_E02-01-00_2023m05_BE.xlsx
         target_file_name: berlin-building-industry-2023-05.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-05-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-05-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-05-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-05-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-05-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-05-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-05-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-05-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-06
     files:
       - source_file_name: SB_E02-01-00_2023m06_BE.xlsx
         target_file_name: berlin-building-industry-2023-06.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-06-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-06-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-06-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-06-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-06-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-06-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-06-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-06-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-07
     files:
       - source_file_name: SB_E02-01-00_2023m07_BE.xlsx
         target_file_name: berlin-building-industry-2023-07.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-07-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-07-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-07-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-07-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-07-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-07-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-07-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-07-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-08
     files:
       - source_file_name: SB_E02-01-00_2023m08_BE.xlsx
         target_file_name: berlin-building-industry-2023-08.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-08-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-08-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-08-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-08-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-08-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-08-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-08-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-08-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-09
     files:
       - source_file_name: SB_E02-01-00_2023m09_BE.xlsx
         target_file_name: berlin-building-industry-2023-09.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-09-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-09-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-09-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-09-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-09-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-09-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-09-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-09-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-10
     files:
       - source_file_name: SB_E02-01-00_2023m10_BE.xlsx
         target_file_name: berlin-building-industry-2023-10.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-10-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-10-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-10-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-10-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-10-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-10-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-10-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-10-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
   - id: berlin-building-industry-2023-11
     files:
       - source_file_name: SB_E02-01-00_2023m11_BE.xlsx
         target_file_name: berlin-building-industry-2023-11.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-11-1-companies-employees-and-salaries.csv
+            sheet_name: Tab1
+            names:
+              - name: month
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-11-2-working-hours.csv
+            sheet_name: Tab2
+            names:
+              - name: month
+              - { name: working_days, type: int }
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_building_construction, type: int }
+              - { name: working_hours_commercial_and_industrial_building_construction, type: int }
+              - { name: working_hours_public_building_construction, type: int }
+              - { name: working_hours_civil_engineering, type: int }
+              - { name: working_hours_commercial_and_industrial_civil_engineering, type: int }
+              - { name: working_hours_road_construction, type: int }
+              - { name: working_hours_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-11-3-turnover.csv
+            sheet_name: Tab3
+            names:
+              - name: month
+              - { name: turnover, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+              - { name: turnover_commercial_and_industrial_building_construction, type: int }
+              - { name: turnover_public_building_construction, type: int }
+              - { name: turnover_civil_engineering, type: int }
+              - { name: turnover_commercial_and_industrial_civil_engineering, type: int }
+              - { name: turnover_road_construction, type: int }
+              - { name: turnover_other_civil_engineering, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-building-industry-2023-11-4-order-intake.csv
+            sheet_name: Tab4
+            names:
+              - name: month
+              - { name: order_intake, type: int }
+              - { name: order_intake_total, type: int }
+              - { name: order_intake_building_construction, type: int }
+              - { name: order_intake_commercial_and_industrial_building_construction, type: int }
+              - { name: order_intake_public_building_construction, type: int }
+              - { name: order_intake_civil_engineering, type: int }
+              - { name: order_intake_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_intake_road_construction, type: int }
+              - { name: order_intake_other_civil_engineering, type: int }
+            skip_rows: 22
+            head: 12
+          - target_file_name: berlin-building-industry-2023-11-5-order-backlog.csv
+            sheet_name: Tab5
+            names:
+              - name: period
+              - { name: order_backlog_total, type: int }
+              - { name: order_backlog_building_construction, type: int }
+              - { name: order_backlog_commercial_and_industrial_building_construction, type: int }
+              - { name: order_backlog_public_building_construction, type: int }
+              - { name: order_backlog_civil_engineering, type: int }
+              - { name: order_backlog_commercial_and_industrial_civil_engineering, type: int }
+              - { name: order_backlog_road_construction, type: int }
+              - { name: order_backlog_other_civil_engineering, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-11-6-key-figures-by-sectors.csv
+            sheet_name: Tab6
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover, type: int }
+            skip_rows: 6
+            head: 27
+          - target_file_name: berlin-building-industry-2023-11-7-companies-employees-working-hours-and-salaries-q1-2021.csv
+            sheet_name: Tab7
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
+          - target_file_name: berlin-building-industry-2023-11-8-companies-employees-working-hours-and-salaries-q4-2022.csv
+            sheet_name: Tab8
+            names:
+              - name: period
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: working_hours, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_building_construction, type: int }
+            skip_rows: 6
+            head: 13
