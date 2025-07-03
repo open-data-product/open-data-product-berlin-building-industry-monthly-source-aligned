@@ -5,7 +5,7 @@
 
 * owner: Open Data Product
 * description: Source-aligned data product providing Berlin building industry data
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 ## Input Ports
 
@@ -275,7 +275,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-01
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -292,7 +292,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-02
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -309,7 +309,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-03
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -326,7 +326,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-04
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -343,7 +343,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-05
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -360,7 +360,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-06
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -377,7 +377,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-07
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -394,7 +394,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-08
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -411,7 +411,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-09
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -428,7 +428,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-10
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -445,7 +445,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-11
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -462,7 +462,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-12
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -479,7 +479,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-01
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -496,7 +496,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-02
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -513,7 +513,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-03
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -530,7 +530,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-04
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -547,7 +547,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-05
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -564,7 +564,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-06
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -581,7 +581,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-07
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -598,7 +598,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-08
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -615,7 +615,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-09
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -632,7 +632,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-10
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -649,7 +649,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-11
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
