@@ -1,19 +1,18 @@
 
-# Open Data Product Specification (ODPS) Canvas - Berlin Building Industry source-aligned
+# Open Data Product Specification (ODPS) Canvas - Berlin Building Industry monthly (source-aligned)
 
 * schema version: 3.1
 ## Product
 
 ### Basic Information
 
-* output file formats: csv
 * categories: timeseries
-* description: Data product providing Berlin building industry data
-* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/refs/heads/main/logo-with-text.png
-* product ID: berlin-building-industry-source-aligned
+* description: Source-aligned data product providing Berlin building industry data
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
+* product ID: berlin-building-industry-monthly-source-aligned
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, building, housing
+* tags: berlin, building, housing
 * type: source-aligned
 * value proposition: Providing Berlin building industry data
 * version: 1.0

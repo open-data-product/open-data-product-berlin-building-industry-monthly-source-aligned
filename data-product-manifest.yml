@@ -6,7 +6,7 @@ metadata:
   description: Source-aligned data product providing Berlin building industry data
   url:
   license:
-  updated: 2025-10-27
+  updated: 2025-10-28
   schema:
     - name: companies
       description: number of companies
@@ -405,7 +405,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-01
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-01/berlin-building-industry-2022-01-1-companies-employees-and-salaries.csv
@@ -423,7 +423,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-02
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-02/berlin-building-industry-2022-02-1-companies-employees-and-salaries.csv
@@ -441,7 +441,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-03
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-03/berlin-building-industry-2022-03-1-companies-employees-and-salaries.csv
@@ -459,7 +459,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-04
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-04/berlin-building-industry-2022-04-1-companies-employees-and-salaries.csv
@@ -477,7 +477,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-05
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-05/berlin-building-industry-2022-05-1-companies-employees-and-salaries.csv
@@ -495,7 +495,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-06
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-06/berlin-building-industry-2022-06-1-companies-employees-and-salaries.csv
@@ -513,7 +513,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-07
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-07/berlin-building-industry-2022-07-1-companies-employees-and-salaries.csv
@@ -531,7 +531,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-08
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-08/berlin-building-industry-2022-08-1-companies-employees-and-salaries.csv
@@ -549,7 +549,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-09
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-09/berlin-building-industry-2022-09-1-companies-employees-and-salaries.csv
@@ -567,7 +567,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-10
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-10/berlin-building-industry-2022-10-1-companies-employees-and-salaries.csv
@@ -585,7 +585,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-11
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-11/berlin-building-industry-2022-11-1-companies-employees-and-salaries.csv
@@ -603,7 +603,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-12
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2022-12/berlin-building-industry-2022-12-1-companies-employees-and-salaries.csv
@@ -621,7 +621,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-01
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-01/berlin-building-industry-2023-01-1-companies-employees-and-salaries.csv
@@ -639,7 +639,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-02
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-02/berlin-building-industry-2023-02-1-companies-employees-and-salaries.csv
@@ -657,7 +657,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-03
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-03/berlin-building-industry-2023-03-1-companies-employees-and-salaries.csv
@@ -675,7 +675,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-04
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-04/berlin-building-industry-2023-04-1-companies-employees-and-salaries.csv
@@ -693,7 +693,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-05
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-05/berlin-building-industry-2023-05-1-companies-employees-and-salaries.csv
@@ -711,7 +711,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-06
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-06/berlin-building-industry-2023-06-1-companies-employees-and-salaries.csv
@@ -729,7 +729,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-07
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-07/berlin-building-industry-2023-07-1-companies-employees-and-salaries.csv
@@ -747,7 +747,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-08
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-08/berlin-building-industry-2023-08-1-companies-employees-and-salaries.csv
@@ -765,7 +765,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-09
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-09/berlin-building-industry-2023-09-1-companies-employees-and-salaries.csv
@@ -783,7 +783,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-10
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-10/berlin-building-industry-2023-10-1-companies-employees-and-salaries.csv
@@ -801,7 +801,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-11
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-monthly-source-aligned/main/data/02-silver/berlin-building-industry-2023-11/berlin-building-industry-2023-11-1-companies-employees-and-salaries.csv
